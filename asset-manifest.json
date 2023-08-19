@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/InfoSprint_NewsApp/static/css/main.497f2394.css",
+    "main.js": "/InfoSprint_NewsApp/static/js/main.3312fb5a.js",
+    "static/js/787.6ba2b859.chunk.js": "/InfoSprint_NewsApp/static/js/787.6ba2b859.chunk.js",
+    "static/media/SpinnerImg.gif": "/InfoSprint_NewsApp/static/media/SpinnerImg.a1d877636ead0cc6af20.gif",
+    "static/media/logoo.png": "/InfoSprint_NewsApp/static/media/logoo.46fba7117282cc91be28.png",
+    "index.html": "/InfoSprint_NewsApp/index.html",
+    "main.497f2394.css.map": "/InfoSprint_NewsApp/static/css/main.497f2394.css.map",
+    "main.3312fb5a.js.map": "/InfoSprint_NewsApp/static/js/main.3312fb5a.js.map",
+    "787.6ba2b859.chunk.js.map": "/InfoSprint_NewsApp/static/js/787.6ba2b859.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.497f2394.css",
+    "static/js/main.3312fb5a.js"
+  ]
+}
