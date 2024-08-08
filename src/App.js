@@ -23,7 +23,7 @@ function App() {
           height={3}
         />
         <Routes>
-          <Route path="/" element={<News apiKey={apiKey} setProgress={setProgress} pageSize={pageSize} country={country} newsTypes={newsTypes} />} />
+          <Route exact path="/" element={<News apiKey={apiKey} setProgress={setProgress} pageSize={pageSize} country={country} newsTypes={newsTypes} />} />
           <Route path="/general" element={<News apiKey={apiKey} setProgress={setProgress} key="general" pageSize={pageSize} category="general" country={country} newsTypes={newsTypes} />} />
           <Route path="/health" element={<News apiKey={apiKey} setProgress={setProgress} key="health" pageSize={pageSize} category="health" country={country} newsTypes={newsTypes} />} />
           <Route path="/business" element={<News apiKey={apiKey} setProgress={setProgress} key="business" pageSize={pageSize} category="business" country={country} newsTypes={newsTypes} />} />
