@@ -1,0 +1,71 @@
+body {
+    height: 1000px;
+    margin: 0;
+}
+
+  .navbar {
+    transition: top 0.6s;
+  }
+
+  .nav-link{
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    text-decoration: none;
+
+    margin-left: 1.5rem;
+    position: relative;
+  }
+
+  .nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:#f1f1f1;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  #logoImg{
+    width: 200px;
+
+  }
+  @media screen and (max-height: 300px) {
+    ul {
+      margin-top: 40px;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    .nav-link:after {
+      margin-left: 50%;
+        left: 0; /* Adjusted to start from the left */
+        transform: translateX(-50%); /* Center the pseudo-element */
+    }
+    
+    .nav-link:hover:after {
+      margin-left: 50%;
+        width: 35%; /* Width when hovering */
+        
+    }
+    #dash{
+      display: none;
+    }
+}
+
+
+@media screen and (max-width: 1270px) {
+  .nav-link {
+    margin-left: 2px;
+}
+#logoImg{
+  width: 180px;
+
+}
+}

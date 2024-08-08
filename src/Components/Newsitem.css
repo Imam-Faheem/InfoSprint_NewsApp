@@ -1,0 +1,12 @@
+/* Newsitem.css */
+
+#newsCard {
+    transition: transform 0.4s;
+    cursor: pointer;
+  }
+  
+  #newsCard:hover {
+    filter: brightness(1.1);
+    transform: scale(1.02);
+  }
+  
